@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sigchi-website/static/css/main.0f513211.css",
+    "main.js": "/sigchi-website/static/js/main.9020bb2b.js",
+    "static/js/453.9c4b0fec.chunk.js": "/sigchi-website/static/js/453.9c4b0fec.chunk.js",
+    "static/media/techpark.jpg": "/sigchi-website/static/media/techpark.26051f12dbf16af1c1c1.jpg",
+    "index.html": "/sigchi-website/index.html",
+    "main.0f513211.css.map": "/sigchi-website/static/css/main.0f513211.css.map",
+    "main.9020bb2b.js.map": "/sigchi-website/static/js/main.9020bb2b.js.map",
+    "453.9c4b0fec.chunk.js.map": "/sigchi-website/static/js/453.9c4b0fec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f513211.css",
+    "static/js/main.9020bb2b.js"
+  ]
+}
