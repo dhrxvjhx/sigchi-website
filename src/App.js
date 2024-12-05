@@ -8,7 +8,6 @@ import P4 from './images/4.jpg';
 import P5 from './images/5.jpg';
 import P6 from './images/6.jpg';
 import P7 from './images/7.jpg';
-import Techpark from './images/Techpark.jpg';
 
 // Navigation Component
 const Navigation = ({ activeSection, setActiveSection }) => {
