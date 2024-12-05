@@ -53,7 +53,7 @@ const Navigation = ({ activeSection, setActiveSection }) => {
 
 // Home Section
 const HomeSection = () => (
-  <div className="min-h-screen flex items-center justify-center relative bg-cover bg-center" style={{ backgroundImage: Techpark }}>
+  <div className="min-h-screen flex items-center justify-center relative bg-cover bg-center" style={{ backgroundImage: "./Images/Techpark.jpg" }}>
       <div className="absolute inset-0 bg-blue-900 opacity-50"></div>
       <div className="text-center max-w-2xl px-4 relative z-10"> {/* Ensure text is above the overlay */}
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-cyan-400">ACM SIGCHI SRM</h1>
