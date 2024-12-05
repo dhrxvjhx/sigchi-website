@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import { Menu, X, UserCircle, Calendar, Phone } from 'lucide-react';
 
+import P1 from './images/1.jpg';
+import P2 from './images/2.jpg';
+import P3 from './images/3.jpg';
+import P4 from './images/4.jpg';
+import P5 from './images/5.jpg';
+import P6 from './images/6.jpg';
+import P7 from './images/7.jpg';
+import Techpark from './images/Techpark.jpg';
+
 // Navigation Component
 const Navigation = ({ activeSection, setActiveSection }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,18 +52,16 @@ const Navigation = ({ activeSection, setActiveSection }) => {
     );
 };
 
-
 // Home Section
 const HomeSection = () => (
-  <div className="min-h-screen flex items-center justify-center relative bg-cover bg-center" style={{ backgroundImage: require('./images/techpark.jpg') }}>
-      <div className="absolute inset-0 bg-blue-900 opacity-50"></div> {/* Blue overlay */}
+  <div className="min-h-screen flex items-center justify-center relative bg-cover bg-center" style={{ backgroundImage: Techpark }}>
+      <div className="absolute inset-0 bg-blue-900 opacity-50"></div>
       <div className="text-center max-w-2xl px-4 relative z-10"> {/* Ensure text is above the overlay */}
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-cyan-400">ACM SIGCHI SRM</h1>
           <p className="text-xl text-gray-300 mb-8">Exploring the Intersection of Computing and Human Interaction</p>
       </div>
   </div>
 );
-
 
 // About Us Section
 const AboutUsSection = () => (
@@ -78,15 +85,15 @@ const AboutUsSection = () => (
 const TeamSection = () => {
   const teamDomains = {
     "Core Secretariat": [
-          { name: "Pranuthi Kabilan", role: "Chairperson", img: "images/logo.png" },
-          { name: "Ezra Chaitanya Prasad", role: "Vice Chairperon", img: "/api/placeholder/200/200" },
-          { name: "Mayukh Tilak", role: "Secretary", img: "/api/placeholder/200/200" }
+          { name: "Pranuthi Kabilan", role: "Chairperson", img: P1 },
+          { name: "Ezra Chaitanya Prasad", role: "Vice Chairperon", img: P2 },
+          { name: "Mayukh Tilak", role: "Secretary", img: P3 }
       ],
     "Domain Leads": [
-        { name: "Mohammed", role: "Technical Lead", img: "/api/placeholder/200/200" },
-        { name: "Koniteji Sai Kalyan", role: "Creative Lead", img: "/api/placeholder/200/200" },
-        { name: "Vratika Bawangade", role: "Events Lead", img: "/api/placeholder/200/200" },
-        { name: "Krishikaa Mathi Bharathi", role: "Corporate Lead", img: "/api/placeholder/200/200" }
+        { name: "Mohammed", role: "Technical Lead", img: P5 },
+        { name: "Koniteji Sai Kalyan", role: "Creative Lead", img: P4 },
+        { name: "Vratika Bawangade", role: "Events Lead", img: P6 },
+        { name: "Krishikaa Mathi Bharathi", role: "Corporate Lead", img: P7 }
       ]
   };
 
@@ -116,7 +123,7 @@ const TeamSection = () => {
 // Events Section
 const EventsSection = () => {
   const upcomingEvents = [
-      { title: "HCI Design Workshop", date: "15 Jan 2024", description: "Hands-on workshop on user experience design principles" }
+      { title: "Code Bytes", date: "9-10 December 2024", description: "Hands-on workshop on user experience design principles" }
   ];
 
   const pastEvents = [
